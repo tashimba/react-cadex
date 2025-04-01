@@ -1,0 +1,36 @@
+@import "@radix-ui/themes/styles.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Центрирование контента */
+[data-radix-theme] {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Кастомные стили для формы */
+[data-radix-theme] form {
+  width: 100%;
+}
