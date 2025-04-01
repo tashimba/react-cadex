@@ -13,4 +13,4 @@
 
 Бэкенд писать не стал, деплоить дольше с ним, делаю фейк запрос
 
-деплой - https://react-cadex-7vxs5v7h6-tashimbas-projects.vercel.app/
+
